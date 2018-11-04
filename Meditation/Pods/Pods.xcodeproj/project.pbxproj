@@ -1,0 +1,912 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		049B460E1DDF110E868627655CE0ADEA /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 260069B1CF6EAAAAE1AAC0B6F79613A7 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0BED362262BF36B8F775BC5810DD7EDE /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB95C7AD52F2C93321B7F758A7C8E06 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		12B1110786810911F8F4D419021CF630 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F682DE96960A1E7AFC4AED52FA1BA74 /* MASConstraintMaker.m */; };
+		1EC8595D0E176DB06815789B6F7E35C1 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 15001626D75D264FA1984D88D1DE4AD9 /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		265ED3616AD8DC0516A45DE5473133DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 429B04D2034FEC1BAEDD7996C9806D8C /* Foundation.framework */; };
+		2A6EEFDF3EE2BBBF63F6063C3F6747A1 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 00DAF7BEC0D05C966FDF459CA94C8186 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2AF8E8005BF2A4EBAC866F0A1AF5975C /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 68D0D547ACDD35F9A6F4CD60E7DEC9C0 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2BBA747A4E46FFA08C5AFE5D3F6E9D7C /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EADF3355359CE9D4370040934C196638 /* NSArray+MASAdditions.m */; };
+		2D68F3513F927896594B2091D5D19476 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A58575917F50B4146557B099CD157335 /* MediaPlayer.framework */; };
+		349A7678AD638D5FE26743AAF165A54A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 914C57661CC219134423728DD6CB9601 /* UIKit.framework */; };
+		438C8D61555B54F796D2DBE88DA19C05 /* MZTimerLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF377E6116173E5FE9DCBA87B9A9652 /* MZTimerLabel-dummy.m */; };
+		583D2A0CAFE395FB3437F6AAB068DD58 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2230956DF86BD15FA6C0F2DA913A7 /* AVFoundation.framework */; };
+		59E460AA853038A50B89ED33CC615FB4 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0A2C893F31359A654088A01F1FED1A /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5F20EE0AE3EB528546FC032DDEE80129 /* JPSVolumeButtonHandler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF113CF28A1D23DD537B5ECB852929D7 /* JPSVolumeButtonHandler-dummy.m */; };
+		7157D66DCE09397047A7ECF10F15DCBF /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B63B28C8AAB71066EFE77D91C2968E8 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7D48232AE62FD0A1E4C4EEC4AE858209 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9BE002FCD3A46BCA2386E57D88BEEB /* MASCompositeConstraint.m */; };
+		7FE1C36A12C885ECCD858E05C3685AF5 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 48B3A0952B6D4EEDD0611C6EBEE2CF45 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8D81F75860280618ABA65BFF026C8E3A /* MZTimerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CC925E58BA016CC9BAE18305D7443C2 /* MZTimerLabel.m */; };
+		8FB869FD7CC5F12F8AE998016FA622A5 /* JPSVolumeButtonHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 314E9BDC931B58DD2F769780D9CF436A /* JPSVolumeButtonHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		91BEFCA99AED2127184DEE584255FBFE /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FABC7AB1DD7F678660515699D7AFC74 /* MASViewAttribute.m */; };
+		9B5D721633B82BF8FE44D1A435434DF9 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DC5C50D8203B9EB3DF738212DEC5C05 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9FD2FB144A530D0AB5A82A99CB4ED088 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 641AC93A041A2A431CD78404D0B7BE48 /* Masonry-dummy.m */; };
+		A2839EE1C3CFDBC573DF28B3EAAFF1B5 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9158D0258642295C31A30A5AF28A8667 /* MASConstraint.m */; };
+		A980F4BA0FD190F27E55F3CD7BF0E091 /* JPSVolumeButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F151A3DA76C2BC12FDB0C07F559FB8B7 /* JPSVolumeButtonHandler.m */; };
+		ADB022A853D74C0A9F48BC16D4EA59CF /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF8CB6645ED89B7567EC06E8DB79FDB2 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ADDC11DDE9F1B90315FE83494312A2B9 /* Pods-Meditation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C8DC037A1FE1FBEBC56984792628D97 /* Pods-Meditation-dummy.m */; };
+		B4BEBC36B586556BFDEDDB9F6D669239 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = A3980874CDEB7035442A452742710ACF /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B5BE571A0725C4506001C206FB69C2F7 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = CA950779E0DCA343D9AC8F61EB659EF4 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BC33BA52697E9FB60D5AC94E53A91452 /* MZTimerLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = F34513653DD41E3820F8BAC9319D3266 /* MZTimerLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BC4BB4FAA82D4C4C439CE83F0C004392 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE9C62B693DD504B89C61275AB2E528 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		C0953168C5916BF83D7C7BDE01A2A300 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 908B4D2FC9BBB323B98FC2B9AF93FF4F /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E3312A275C1003F02C7386349FBE4195 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8834EA1C601A8DB291C2B363D5B3DDFC /* View+MASAdditions.m */; };
+		E8D2B06760AD270146CF0C5CB07E2043 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D567DD985479E644E85797B19E2E6B3F /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F57F3C8BF466FA98523222E68B41B77D /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C5731CAFB2535FFB520A0E4E781876 /* MASViewConstraint.m */; };
+		F6FCDB8385D380A13B3303853DDEEDAB /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF48BC42F3E41368E16ED48AE481A49 /* ViewController+MASAdditions.m */; };
+		FC2959986CFDEBB4308E36CF89A325B6 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CC052C6FDE812817741FCE2D0E1704B7 /* MASLayoutConstraint.m */; };
+		FCD64586536B2C1974F92ACAF8447ACD /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A1A32DA3B346C11C44AD2C397F899B5 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32BE4C9C64405D66B21F55E20F9D2BA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D87B9B1C3DC41517B41FF47EBFDDB0DA;
+			remoteInfo = JPSVolumeButtonHandler;
+		};
+		8BD24859C120A06A431DC0E081075F0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40A42EA465E764DD959C829C51404C08;
+			remoteInfo = Masonry;
+		};
+		E68214ADA1CD5C305662976CDE83EBAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC934E70D1E1D6B6ED304A2EB99610E2;
+			remoteInfo = MZTimerLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0045BB1B1BBB3BB9D8C63F7BCDCAC6AF /* libJPSVolumeButtonHandler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJPSVolumeButtonHandler.a; path = libJPSVolumeButtonHandler.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		00DAF7BEC0D05C966FDF459CA94C8186 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		0B63B28C8AAB71066EFE77D91C2968E8 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		0FDBC92A47B0A71E350ED3074861A122 /* Pods-Meditation-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Meditation-resources.sh"; sourceTree = "<group>"; };
+		15001626D75D264FA1984D88D1DE4AD9 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		1A1A32DA3B346C11C44AD2C397F899B5 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		1DF377E6116173E5FE9DCBA87B9A9652 /* MZTimerLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MZTimerLabel-dummy.m"; sourceTree = "<group>"; };
+		22B23B4D7C876AA9FF68C45CB2500650 /* Pods-Meditation-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Meditation-acknowledgements.markdown"; sourceTree = "<group>"; };
+		260069B1CF6EAAAAE1AAC0B6F79613A7 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		314E9BDC931B58DD2F769780D9CF436A /* JPSVolumeButtonHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPSVolumeButtonHandler.h; path = JPSVolumeButtonHandler/JPSVolumeButtonHandler.h; sourceTree = "<group>"; };
+		37C5731CAFB2535FFB520A0E4E781876 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		4026735FE89E247304490CF7A01A1DD7 /* Pods-Meditation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Meditation.debug.xcconfig"; sourceTree = "<group>"; };
+		429B04D2034FEC1BAEDD7996C9806D8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		48B3A0952B6D4EEDD0611C6EBEE2CF45 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		4B9BE002FCD3A46BCA2386E57D88BEEB /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		4F682DE96960A1E7AFC4AED52FA1BA74 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		5DB95C7AD52F2C93321B7F758A7C8E06 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		6090B6DA8ED0C4393D59D8422E64C337 /* JPSVolumeButtonHandler-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JPSVolumeButtonHandler-prefix.pch"; sourceTree = "<group>"; };
+		633EBB5ECE886E51076E2B55C1BA04AE /* Pods-Meditation-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Meditation-frameworks.sh"; sourceTree = "<group>"; };
+		641AC93A041A2A431CD78404D0B7BE48 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		68D0D547ACDD35F9A6F4CD60E7DEC9C0 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		6DC5C50D8203B9EB3DF738212DEC5C05 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		7BF48BC42F3E41368E16ED48AE481A49 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		7C8DC037A1FE1FBEBC56984792628D97 /* Pods-Meditation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Meditation-dummy.m"; sourceTree = "<group>"; };
+		7CC925E58BA016CC9BAE18305D7443C2 /* MZTimerLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MZTimerLabel.m; path = MZTimerLabel/MZTimerLabel.m; sourceTree = "<group>"; };
+		8834EA1C601A8DB291C2B363D5B3DDFC /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		8A10EA4BA588B1B7422ED6F20A4DEB7E /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		8FABC7AB1DD7F678660515699D7AFC74 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		908B4D2FC9BBB323B98FC2B9AF93FF4F /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		90F1F3D0DAF967C688350C39CF497E6C /* MZTimerLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZTimerLabel-prefix.pch"; sourceTree = "<group>"; };
+		914C57661CC219134423728DD6CB9601 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		9158D0258642295C31A30A5AF28A8667 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D18C757E67C9D93778DD22E4BE679A3 /* Pods-Meditation-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Meditation-acknowledgements.plist"; sourceTree = "<group>"; };
+		A3980874CDEB7035442A452742710ACF /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		A49EEB898CA88D1505556960E5EF3A2A /* MZTimerLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MZTimerLabel.xcconfig; sourceTree = "<group>"; };
+		A58575917F50B4146557B099CD157335 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		BF113CF28A1D23DD537B5ECB852929D7 /* JPSVolumeButtonHandler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JPSVolumeButtonHandler-dummy.m"; sourceTree = "<group>"; };
+		BFD66060483E693E0015C88130746AE6 /* JPSVolumeButtonHandler.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JPSVolumeButtonHandler.xcconfig; sourceTree = "<group>"; };
+		CA950779E0DCA343D9AC8F61EB659EF4 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		CC052C6FDE812817741FCE2D0E1704B7 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		CD0A2C893F31359A654088A01F1FED1A /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		D4CE3A8F78CBBA3A074AAAC3BF18BF12 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D522D79D2B23D501A763E2183548BF62 /* Pods-Meditation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Meditation.release.xcconfig"; sourceTree = "<group>"; };
+		D567DD985479E644E85797B19E2E6B3F /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		D708A4BCE7138C439E00631F87342B9D /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		E43342D6B1E1499090A8C1B28C89D45D /* libMZTimerLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMZTimerLabel.a; path = libMZTimerLabel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8238B49A44FC02082CDE09D0C65BC0A /* libPods-Meditation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Meditation.a"; path = "libPods-Meditation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EADF3355359CE9D4370040934C196638 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		ECE9C62B693DD504B89C61275AB2E528 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		ECF2230956DF86BD15FA6C0F2DA913A7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		F151A3DA76C2BC12FDB0C07F559FB8B7 /* JPSVolumeButtonHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPSVolumeButtonHandler.m; path = JPSVolumeButtonHandler/JPSVolumeButtonHandler.m; sourceTree = "<group>"; };
+		F34513653DD41E3820F8BAC9319D3266 /* MZTimerLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MZTimerLabel.h; path = MZTimerLabel/MZTimerLabel.h; sourceTree = "<group>"; };
+		FF8CB6645ED89B7567EC06E8DB79FDB2 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A60FD0613788A67247251A6ED33AFC45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B14633890C67375BA98A6CA281564D86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				583D2A0CAFE395FB3437F6AAB068DD58 /* AVFoundation.framework in Frameworks */,
+				2D68F3513F927896594B2091D5D19476 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8971CE7149C01D737F6EECE0A4FF56B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95ADA1C4EF2FA5FF4EEC54DD65EAA3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265ED3616AD8DC0516A45DE5473133DD /* Foundation.framework in Frameworks */,
+				349A7678AD638D5FE26743AAF165A54A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0DB8D1C21157804AB07CC775C5703B4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FCBB60EBBA8F83807452AE1D54A7CB0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A10EA4BA588B1B7422ED6F20A4DEB7E /* Masonry.xcconfig */,
+				641AC93A041A2A431CD78404D0B7BE48 /* Masonry-dummy.m */,
+				D708A4BCE7138C439E00631F87342B9D /* Masonry-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		32951FF026E0520561A7393CE835291A /* JPSVolumeButtonHandler */ = {
+			isa = PBXGroup;
+			children = (
+				314E9BDC931B58DD2F769780D9CF436A /* JPSVolumeButtonHandler.h */,
+				F151A3DA76C2BC12FDB0C07F559FB8B7 /* JPSVolumeButtonHandler.m */,
+				ED26B3B8395D9B128A891349CD219D94 /* Support Files */,
+			);
+			name = JPSVolumeButtonHandler;
+			path = JPSVolumeButtonHandler;
+			sourceTree = "<group>";
+		};
+		343D21540D9903C71CE067ECAAFF4EF6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE6E4656A1910B3063B958DCF8B30F57 /* Pods-Meditation */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3C99363DDEB6D7EFED36ABB36914983D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32951FF026E0520561A7393CE835291A /* JPSVolumeButtonHandler */,
+				9FB7CF578BA338B918377A16875A04FF /* Masonry */,
+				DDA144A25302451E852EF33E7AD06E96 /* MZTimerLabel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7B1FECB550359C6E5AD52414339A768F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0045BB1B1BBB3BB9D8C63F7BCDCAC6AF /* libJPSVolumeButtonHandler.a */,
+				D4CE3A8F78CBBA3A074AAAC3BF18BF12 /* libMasonry.a */,
+				E43342D6B1E1499090A8C1B28C89D45D /* libMZTimerLabel.a */,
+				E8238B49A44FC02082CDE09D0C65BC0A /* libPods-Meditation.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				3C99363DDEB6D7EFED36ABB36914983D /* Pods */,
+				7B1FECB550359C6E5AD52414339A768F /* Products */,
+				343D21540D9903C71CE067ECAAFF4EF6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9003788FD101CCA2A8878AAFC94DD382 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A49EEB898CA88D1505556960E5EF3A2A /* MZTimerLabel.xcconfig */,
+				1DF377E6116173E5FE9DCBA87B9A9652 /* MZTimerLabel-dummy.m */,
+				90F1F3D0DAF967C688350C39CF497E6C /* MZTimerLabel-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MZTimerLabel";
+			sourceTree = "<group>";
+		};
+		9FB7CF578BA338B918377A16875A04FF /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				0B63B28C8AAB71066EFE77D91C2968E8 /* MASCompositeConstraint.h */,
+				4B9BE002FCD3A46BCA2386E57D88BEEB /* MASCompositeConstraint.m */,
+				15001626D75D264FA1984D88D1DE4AD9 /* MASConstraint.h */,
+				9158D0258642295C31A30A5AF28A8667 /* MASConstraint.m */,
+				CA950779E0DCA343D9AC8F61EB659EF4 /* MASConstraint+Private.h */,
+				1A1A32DA3B346C11C44AD2C397F899B5 /* MASConstraintMaker.h */,
+				4F682DE96960A1E7AFC4AED52FA1BA74 /* MASConstraintMaker.m */,
+				CD0A2C893F31359A654088A01F1FED1A /* MASLayoutConstraint.h */,
+				CC052C6FDE812817741FCE2D0E1704B7 /* MASLayoutConstraint.m */,
+				A3980874CDEB7035442A452742710ACF /* Masonry.h */,
+				D567DD985479E644E85797B19E2E6B3F /* MASUtilities.h */,
+				260069B1CF6EAAAAE1AAC0B6F79613A7 /* MASViewAttribute.h */,
+				8FABC7AB1DD7F678660515699D7AFC74 /* MASViewAttribute.m */,
+				48B3A0952B6D4EEDD0611C6EBEE2CF45 /* MASViewConstraint.h */,
+				37C5731CAFB2535FFB520A0E4E781876 /* MASViewConstraint.m */,
+				5DB95C7AD52F2C93321B7F758A7C8E06 /* NSArray+MASAdditions.h */,
+				EADF3355359CE9D4370040934C196638 /* NSArray+MASAdditions.m */,
+				908B4D2FC9BBB323B98FC2B9AF93FF4F /* NSArray+MASShorthandAdditions.h */,
+				68D0D547ACDD35F9A6F4CD60E7DEC9C0 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				ECE9C62B693DD504B89C61275AB2E528 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				FF8CB6645ED89B7567EC06E8DB79FDB2 /* View+MASAdditions.h */,
+				8834EA1C601A8DB291C2B363D5B3DDFC /* View+MASAdditions.m */,
+				00DAF7BEC0D05C966FDF459CA94C8186 /* View+MASShorthandAdditions.h */,
+				6DC5C50D8203B9EB3DF738212DEC5C05 /* ViewController+MASAdditions.h */,
+				7BF48BC42F3E41368E16ED48AE481A49 /* ViewController+MASAdditions.m */,
+				2FCBB60EBBA8F83807452AE1D54A7CB0 /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		DDA144A25302451E852EF33E7AD06E96 /* MZTimerLabel */ = {
+			isa = PBXGroup;
+			children = (
+				F34513653DD41E3820F8BAC9319D3266 /* MZTimerLabel.h */,
+				7CC925E58BA016CC9BAE18305D7443C2 /* MZTimerLabel.m */,
+				9003788FD101CCA2A8878AAFC94DD382 /* Support Files */,
+			);
+			name = MZTimerLabel;
+			path = MZTimerLabel;
+			sourceTree = "<group>";
+		};
+		DE6E4656A1910B3063B958DCF8B30F57 /* Pods-Meditation */ = {
+			isa = PBXGroup;
+			children = (
+				22B23B4D7C876AA9FF68C45CB2500650 /* Pods-Meditation-acknowledgements.markdown */,
+				9D18C757E67C9D93778DD22E4BE679A3 /* Pods-Meditation-acknowledgements.plist */,
+				7C8DC037A1FE1FBEBC56984792628D97 /* Pods-Meditation-dummy.m */,
+				633EBB5ECE886E51076E2B55C1BA04AE /* Pods-Meditation-frameworks.sh */,
+				0FDBC92A47B0A71E350ED3074861A122 /* Pods-Meditation-resources.sh */,
+				4026735FE89E247304490CF7A01A1DD7 /* Pods-Meditation.debug.xcconfig */,
+				D522D79D2B23D501A763E2183548BF62 /* Pods-Meditation.release.xcconfig */,
+			);
+			name = "Pods-Meditation";
+			path = "Target Support Files/Pods-Meditation";
+			sourceTree = "<group>";
+		};
+		E0DB8D1C21157804AB07CC775C5703B4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				ECF2230956DF86BD15FA6C0F2DA913A7 /* AVFoundation.framework */,
+				429B04D2034FEC1BAEDD7996C9806D8C /* Foundation.framework */,
+				A58575917F50B4146557B099CD157335 /* MediaPlayer.framework */,
+				914C57661CC219134423728DD6CB9601 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		ED26B3B8395D9B128A891349CD219D94 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFD66060483E693E0015C88130746AE6 /* JPSVolumeButtonHandler.xcconfig */,
+				BF113CF28A1D23DD537B5ECB852929D7 /* JPSVolumeButtonHandler-dummy.m */,
+				6090B6DA8ED0C4393D59D8422E64C337 /* JPSVolumeButtonHandler-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JPSVolumeButtonHandler";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3AF01C88BBA7AFC5E4478BD8C6BC47C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		588E006CC8365282CE012AF51B53502E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC33BA52697E9FB60D5AC94E53A91452 /* MZTimerLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8990EEE1BB31A1D570F04DF35DD765DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7157D66DCE09397047A7ECF10F15DCBF /* MASCompositeConstraint.h in Headers */,
+				B5BE571A0725C4506001C206FB69C2F7 /* MASConstraint+Private.h in Headers */,
+				1EC8595D0E176DB06815789B6F7E35C1 /* MASConstraint.h in Headers */,
+				FCD64586536B2C1974F92ACAF8447ACD /* MASConstraintMaker.h in Headers */,
+				59E460AA853038A50B89ED33CC615FB4 /* MASLayoutConstraint.h in Headers */,
+				B4BEBC36B586556BFDEDDB9F6D669239 /* Masonry.h in Headers */,
+				E8D2B06760AD270146CF0C5CB07E2043 /* MASUtilities.h in Headers */,
+				049B460E1DDF110E868627655CE0ADEA /* MASViewAttribute.h in Headers */,
+				7FE1C36A12C885ECCD858E05C3685AF5 /* MASViewConstraint.h in Headers */,
+				0BED362262BF36B8F775BC5810DD7EDE /* NSArray+MASAdditions.h in Headers */,
+				C0953168C5916BF83D7C7BDE01A2A300 /* NSArray+MASShorthandAdditions.h in Headers */,
+				2AF8E8005BF2A4EBAC866F0A1AF5975C /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				ADB022A853D74C0A9F48BC16D4EA59CF /* View+MASAdditions.h in Headers */,
+				2A6EEFDF3EE2BBBF63F6063C3F6747A1 /* View+MASShorthandAdditions.h in Headers */,
+				9B5D721633B82BF8FE44D1A435434DF9 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D5994EFA9889C0780F6439E7B1F7CAA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FB869FD7CC5F12F8AE998016FA622A5 /* JPSVolumeButtonHandler.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		40A42EA465E764DD959C829C51404C08 /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFB00DFDEF804FAD5E3E20BC782ADAB8 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				8990EEE1BB31A1D570F04DF35DD765DD /* Headers */,
+				CD3F0F0348E695642F4232776EFC8AD5 /* Sources */,
+				C95ADA1C4EF2FA5FF4EEC54DD65EAA3C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = D4CE3A8F78CBBA3A074AAAC3BF18BF12 /* libMasonry.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B95F4EC9502BB8CA2102C01EB36B25DA /* Pods-Meditation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FC879ABE7275C35EEE0A551014DD281 /* Build configuration list for PBXNativeTarget "Pods-Meditation" */;
+			buildPhases = (
+				3AF01C88BBA7AFC5E4478BD8C6BC47C3 /* Headers */,
+				EC3B1D87F572F0F03459D7EE53DF1B37 /* Sources */,
+				B8971CE7149C01D737F6EECE0A4FF56B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				676DD00389B79EDC5CCFB24DE299915A /* PBXTargetDependency */,
+				AFA2F63063547EF2D54A58A2299968AA /* PBXTargetDependency */,
+				01E3F8FA936AEE44F3E58D5F342D6EB6 /* PBXTargetDependency */,
+			);
+			name = "Pods-Meditation";
+			productName = "Pods-Meditation";
+			productReference = E8238B49A44FC02082CDE09D0C65BC0A /* libPods-Meditation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D87B9B1C3DC41517B41FF47EBFDDB0DA /* JPSVolumeButtonHandler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE0DB4F5458563F535541D453A99D682 /* Build configuration list for PBXNativeTarget "JPSVolumeButtonHandler" */;
+			buildPhases = (
+				8D5994EFA9889C0780F6439E7B1F7CAA /* Headers */,
+				612F49C3A2EE4E82AF617D3C5B6BF609 /* Sources */,
+				B14633890C67375BA98A6CA281564D86 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JPSVolumeButtonHandler;
+			productName = JPSVolumeButtonHandler;
+			productReference = 0045BB1B1BBB3BB9D8C63F7BCDCAC6AF /* libJPSVolumeButtonHandler.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FC934E70D1E1D6B6ED304A2EB99610E2 /* MZTimerLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91D1C0C823D9D30A49AC55115E4EA498 /* Build configuration list for PBXNativeTarget "MZTimerLabel" */;
+			buildPhases = (
+				588E006CC8365282CE012AF51B53502E /* Headers */,
+				88C09A3C3A56E62110D23ED7C04976E5 /* Sources */,
+				A60FD0613788A67247251A6ED33AFC45 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MZTimerLabel;
+			productName = MZTimerLabel;
+			productReference = E43342D6B1E1499090A8C1B28C89D45D /* libMZTimerLabel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7B1FECB550359C6E5AD52414339A768F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D87B9B1C3DC41517B41FF47EBFDDB0DA /* JPSVolumeButtonHandler */,
+				40A42EA465E764DD959C829C51404C08 /* Masonry */,
+				FC934E70D1E1D6B6ED304A2EB99610E2 /* MZTimerLabel */,
+				B95F4EC9502BB8CA2102C01EB36B25DA /* Pods-Meditation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		612F49C3A2EE4E82AF617D3C5B6BF609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F20EE0AE3EB528546FC032DDEE80129 /* JPSVolumeButtonHandler-dummy.m in Sources */,
+				A980F4BA0FD190F27E55F3CD7BF0E091 /* JPSVolumeButtonHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C09A3C3A56E62110D23ED7C04976E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438C8D61555B54F796D2DBE88DA19C05 /* MZTimerLabel-dummy.m in Sources */,
+				8D81F75860280618ABA65BFF026C8E3A /* MZTimerLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3F0F0348E695642F4232776EFC8AD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D48232AE62FD0A1E4C4EEC4AE858209 /* MASCompositeConstraint.m in Sources */,
+				A2839EE1C3CFDBC573DF28B3EAAFF1B5 /* MASConstraint.m in Sources */,
+				12B1110786810911F8F4D419021CF630 /* MASConstraintMaker.m in Sources */,
+				FC2959986CFDEBB4308E36CF89A325B6 /* MASLayoutConstraint.m in Sources */,
+				9FD2FB144A530D0AB5A82A99CB4ED088 /* Masonry-dummy.m in Sources */,
+				91BEFCA99AED2127184DEE584255FBFE /* MASViewAttribute.m in Sources */,
+				F57F3C8BF466FA98523222E68B41B77D /* MASViewConstraint.m in Sources */,
+				2BBA747A4E46FFA08C5AFE5D3F6E9D7C /* NSArray+MASAdditions.m in Sources */,
+				BC4BB4FAA82D4C4C439CE83F0C004392 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				E3312A275C1003F02C7386349FBE4195 /* View+MASAdditions.m in Sources */,
+				F6FCDB8385D380A13B3303853DDEEDAB /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC3B1D87F572F0F03459D7EE53DF1B37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADDC11DDE9F1B90315FE83494312A2B9 /* Pods-Meditation-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01E3F8FA936AEE44F3E58D5F342D6EB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 40A42EA465E764DD959C829C51404C08 /* Masonry */;
+			targetProxy = 8BD24859C120A06A431DC0E081075F0F /* PBXContainerItemProxy */;
+		};
+		676DD00389B79EDC5CCFB24DE299915A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JPSVolumeButtonHandler;
+			target = D87B9B1C3DC41517B41FF47EBFDDB0DA /* JPSVolumeButtonHandler */;
+			targetProxy = 32BE4C9C64405D66B21F55E20F9D2BA0 /* PBXContainerItemProxy */;
+		};
+		AFA2F63063547EF2D54A58A2299968AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MZTimerLabel;
+			target = FC934E70D1E1D6B6ED304A2EB99610E2 /* MZTimerLabel */;
+			targetProxy = E68214ADA1CD5C305662976CDE83EBAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1BA74E6832D194E24B2C42894B353D22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A49EEB898CA88D1505556960E5EF3A2A /* MZTimerLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MZTimerLabel/MZTimerLabel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MZTimerLabel;
+				PRODUCT_NAME = MZTimerLabel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D3F48869EA6A0024D621535B6BC77C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A10EA4BA588B1B7422ED6F20A4DEB7E /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		272EB2286212C169BE521ED2F9666E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFD66060483E693E0015C88130746AE6 /* JPSVolumeButtonHandler.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JPSVolumeButtonHandler/JPSVolumeButtonHandler-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JPSVolumeButtonHandler;
+				PRODUCT_NAME = JPSVolumeButtonHandler;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B2B75CB33E62C7DA3D7291267E36D26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFD66060483E693E0015C88130746AE6 /* JPSVolumeButtonHandler.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JPSVolumeButtonHandler/JPSVolumeButtonHandler-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JPSVolumeButtonHandler;
+				PRODUCT_NAME = JPSVolumeButtonHandler;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		67CE04C73A25F93CD3F7895150D6BED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A49EEB898CA88D1505556960E5EF3A2A /* MZTimerLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MZTimerLabel/MZTimerLabel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MZTimerLabel;
+				PRODUCT_NAME = MZTimerLabel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		858D01EEFE984249A9581D18DBEA53F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9ED7FC5170C950CB0B3BBB8A0CFB4A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D522D79D2B23D501A763E2183548BF62 /* Pods-Meditation.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A22E63C1A869DF4E1506A70723A317B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4026735FE89E247304490CF7A01A1DD7 /* Pods-Meditation.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A254A1D5CAE40ABC54B15E5215496D62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A10EA4BA588B1B7422ED6F20A4DEB7E /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858D01EEFE984249A9581D18DBEA53F1 /* Debug */,
+				5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FC879ABE7275C35EEE0A551014DD281 /* Build configuration list for PBXNativeTarget "Pods-Meditation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A22E63C1A869DF4E1506A70723A317B7 /* Debug */,
+				9ED7FC5170C950CB0B3BBB8A0CFB4A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91D1C0C823D9D30A49AC55115E4EA498 /* Build configuration list for PBXNativeTarget "MZTimerLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67CE04C73A25F93CD3F7895150D6BED5 /* Debug */,
+				1BA74E6832D194E24B2C42894B353D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE0DB4F5458563F535541D453A99D682 /* Build configuration list for PBXNativeTarget "JPSVolumeButtonHandler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272EB2286212C169BE521ED2F9666E44 /* Debug */,
+				4B2B75CB33E62C7DA3D7291267E36D26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFB00DFDEF804FAD5E3E20BC782ADAB8 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D3F48869EA6A0024D621535B6BC77C9 /* Debug */,
+				A254A1D5CAE40ABC54B15E5215496D62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

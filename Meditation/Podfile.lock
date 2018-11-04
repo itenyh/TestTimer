@@ -1,0 +1,24 @@
+PODS:
+  - JPSVolumeButtonHandler (1.0.5)
+  - Masonry (1.1.0)
+  - MZTimerLabel (0.5.4)
+
+DEPENDENCIES:
+  - JPSVolumeButtonHandler
+  - Masonry
+  - MZTimerLabel
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - JPSVolumeButtonHandler
+    - Masonry
+    - MZTimerLabel
+
+SPEC CHECKSUMS:
+  JPSVolumeButtonHandler: 53110330c9168ed325def93eabff39f0fe3e8082
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MZTimerLabel: cd9bfb9304540ef2a9e163384fca9c978f0dbf83
+
+PODFILE CHECKSUM: be18fce5d5448f207bc49371e34d00b2a9f1698b
+
+COCOAPODS: 1.5.3
