@@ -8,7 +8,8 @@
 
 #import "AppDelegate.h"
 
-#import "ViewController.h"
+#import "MainViewController.h"
+#import "HistoryViewController.h"
 
 @interface AppDelegate ()
 
@@ -21,7 +22,7 @@
     // Override point for customization after application launch.
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:[ViewController new]];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:[MainViewController new]];
     navController.navigationBar.hidden = YES;
     self.window.rootViewController = navController;
     [self.window makeKeyAndVisible];

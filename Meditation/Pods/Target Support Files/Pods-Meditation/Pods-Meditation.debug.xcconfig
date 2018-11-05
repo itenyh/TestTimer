@@ -1,8 +1,8 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/JPSVolumeButtonHandler" "${PODS_ROOT}/Headers/Public/MZTimerLabel" "${PODS_ROOT}/Headers/Public/Masonry"
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/JPSVolumeButtonHandler" "${PODS_CONFIGURATION_BUILD_DIR}/MZTimerLabel" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/JPSVolumeButtonHandler" -isystem "${PODS_ROOT}/Headers/Public/MZTimerLabel" -isystem "${PODS_ROOT}/Headers/Public/Masonry"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"JPSVolumeButtonHandler" -l"MZTimerLabel" -l"Masonry" -framework "AVFoundation" -framework "Foundation" -framework "MediaPlayer" -framework "UIKit"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/JPSVolumeButtonHandler" "${PODS_ROOT}/Headers/Public/MZTimerLabel" "${PODS_ROOT}/Headers/Public/Masonry" "${PODS_ROOT}/Headers/Public/ReactiveObjC" "${PODS_ROOT}/Headers/Public/Realm"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/JPSVolumeButtonHandler" "${PODS_CONFIGURATION_BUILD_DIR}/MZTimerLabel" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/ReactiveObjC" "${PODS_CONFIGURATION_BUILD_DIR}/Realm" "${PODS_ROOT}/Realm/core"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/JPSVolumeButtonHandler" -isystem "${PODS_ROOT}/Headers/Public/MZTimerLabel" -isystem "${PODS_ROOT}/Headers/Public/Masonry" -isystem "${PODS_ROOT}/Headers/Public/ReactiveObjC" -isystem "${PODS_ROOT}/Headers/Public/Realm"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"JPSVolumeButtonHandler" -l"MZTimerLabel" -l"Masonry" -l"ReactiveObjC" -l"Realm" -l"c++" -l"realmcore-ios" -l"z" -framework "AVFoundation" -framework "Foundation" -framework "MediaPlayer" -framework "Security" -framework "UIKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

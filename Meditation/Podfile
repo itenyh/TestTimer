@@ -10,5 +10,7 @@ target 'Meditation' do
   pod 'Masonry'
   pod 'JPSVolumeButtonHandler'
   pod 'MZTimerLabel'
+  pod 'Realm'
+  pod 'ReactiveObjC'
   
 end

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		73161677218D9AD40034537D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73161676218D9AD40034537D /* AppDelegate.m */; };
-		7316167A218D9AD40034537D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73161679218D9AD40034537D /* ViewController.m */; };
+		7316167A218D9AD40034537D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73161679218D9AD40034537D /* MainViewController.m */; };
 		7316167D218D9AD40034537D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7316167B218D9AD40034537D /* Main.storyboard */; };
 		7316167F218D9AD70034537D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7316167E218D9AD70034537D /* Assets.xcassets */; };
 		73161682218D9AD70034537D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73161680218D9AD70034537D /* LaunchScreen.storyboard */; };
@@ -50,6 +50,43 @@
 		73161708218D9B1B0034537D /* user_macro.hr in Resources */ = {isa = PBXBuildFile; fileRef = 731616E5218D9B1B0034537D /* user_macro.hr */; };
 		73E34CC2218EABED00C2AB97 /* clock.wav in Resources */ = {isa = PBXBuildFile; fileRef = 73E34CC1218EABED00C2AB97 /* clock.wav */; };
 		C0445903D3FCC01446EAA734 /* libPods-Meditation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47C694913455423A28807B70 /* libPods-Meditation.a */; };
+		D59DC025218FE8200013EC9A /* AAJSFiles.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D59DBFE6218FE8200013EC9A /* AAJSFiles.bundle */; };
+		D59DC026218FE8200013EC9A /* AAAreaspline.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DBFE9218FE8200013EC9A /* AAAreaspline.m */; };
+		D59DC027218FE8200013EC9A /* AALabels.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DBFEB218FE8200013EC9A /* AALabels.m */; };
+		D59DC028218FE8200013EC9A /* AASeries.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DBFEE218FE8200013EC9A /* AASeries.m */; };
+		D59DC029218FE8200013EC9A /* AAXAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DBFEF218FE8200013EC9A /* AAXAxis.m */; };
+		D59DC02A218FE8200013EC9A /* AAPlotOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DBFF1218FE8200013EC9A /* AAPlotOptions.m */; };
+		D59DC02B218FE8200013EC9A /* AADataLabels.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DBFF2218FE8200013EC9A /* AADataLabels.m */; };
+		D59DC02C218FE8200013EC9A /* AALine.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DBFF3218FE8200013EC9A /* AALine.m */; };
+		D59DC02D218FE8200013EC9A /* AATooltip.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DBFF6218FE8200013EC9A /* AATooltip.m */; };
+		D59DC02E218FE8200013EC9A /* AASubtitle.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DBFF8218FE8200013EC9A /* AASubtitle.m */; };
+		D59DC02F218FE8200013EC9A /* AAYAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DBFF9218FE8200013EC9A /* AAYAxis.m */; };
+		D59DC030218FE8200013EC9A /* AACrosshair.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DBFFA218FE8200013EC9A /* AACrosshair.m */; };
+		D59DC031218FE8200013EC9A /* AAColumn.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DBFFF218FE8200013EC9A /* AAColumn.m */; };
+		D59DC032218FE8200013EC9A /* AAPlotLinesElement.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DC000218FE8200013EC9A /* AAPlotLinesElement.m */; };
+		D59DC033218FE8200013EC9A /* AAOptions3d.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DC002218FE8200013EC9A /* AAOptions3d.m */; };
+		D59DC034218FE8200013EC9A /* AAStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DC004218FE8200013EC9A /* AAStyle.m */; };
+		D59DC035218FE8200013EC9A /* AABar.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DC005218FE8200013EC9A /* AABar.m */; };
+		D59DC036218FE8200013EC9A /* AATitle.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DC006218FE8200013EC9A /* AATitle.m */; };
+		D59DC037218FE8200013EC9A /* AAArea.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DC009218FE8200013EC9A /* AAArea.m */; };
+		D59DC038218FE8200013EC9A /* AAAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DC00A218FE8200013EC9A /* AAAnimation.m */; };
+		D59DC039218FE8200013EC9A /* AALegend.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DC00B218FE8200013EC9A /* AALegend.m */; };
+		D59DC03A218FE8200013EC9A /* AAMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DC00D218FE8200013EC9A /* AAMarker.m */; };
+		D59DC03B218FE8200013EC9A /* AASpline.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DC011218FE8200013EC9A /* AASpline.m */; };
+		D59DC03C218FE8200013EC9A /* AAItemStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DC012218FE8200013EC9A /* AAItemStyle.m */; };
+		D59DC03D218FE8200013EC9A /* AAPie.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DC013218FE8200013EC9A /* AAPie.m */; };
+		D59DC03E218FE8200013EC9A /* AAChart.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DC019218FE8200013EC9A /* AAChart.m */; };
+		D59DC03F218FE8200013EC9A /* AAChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DC01C218FE8200013EC9A /* AAChartView.m */; };
+		D59DC040218FE8200013EC9A /* AAChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DC01F218FE8200013EC9A /* AAChartModel.m */; };
+		D59DC041218FE8200013EC9A /* AAOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DC021218FE8200013EC9A /* AAOptions.m */; };
+		D59DC042218FE8200013EC9A /* AASeriesElement.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DC022218FE8200013EC9A /* AASeriesElement.m */; };
+		D59DC046218FEB9B0013EC9A /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DC045218FEB9B0013EC9A /* HistoryViewController.m */; };
+		D59DC049218FECA70013EC9A /* MDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DC048218FECA70013EC9A /* MDViewController.m */; };
+		D59DC04C219028150013EC9A /* MDModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DC04B219028150013EC9A /* MDModel.m */; };
+		D59DC04F219028630013EC9A /* MDMeditationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DC04E219028630013EC9A /* MDMeditationModel.m */; };
+		D59DC05221902E530013EC9A /* MDDistractionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DC05121902E530013EC9A /* MDDistractionModel.m */; };
+		D59DC05621902F300013EC9A /* MDViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DC05521902F300013EC9A /* MDViewModel.m */; };
+		D59DC05921902F510013EC9A /* MDMainViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DC05821902F510013EC9A /* MDMainViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,8 +96,8 @@
 		73161672218D9AD40034537D /* Meditation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meditation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73161675218D9AD40034537D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		73161676218D9AD40034537D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		73161678218D9AD40034537D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		73161679218D9AD40034537D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		73161678218D9AD40034537D /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		73161679218D9AD40034537D /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		7316167C218D9AD40034537D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7316167E218D9AD70034537D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73161681218D9AD70034537D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -138,6 +175,81 @@
 		731616E5218D9B1B0034537D /* user_macro.hr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = user_macro.hr; sourceTree = "<group>"; };
 		738EF605218E906000A9E811 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		73E34CC1218EABED00C2AB97 /* clock.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clock.wav; sourceTree = "<group>"; };
+		D59DBFE6218FE8200013EC9A /* AAJSFiles.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AAJSFiles.bundle; sourceTree = "<group>"; };
+		D59DBFE8218FE8200013EC9A /* AAArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAArea.h; sourceTree = "<group>"; };
+		D59DBFE9218FE8200013EC9A /* AAAreaspline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAAreaspline.m; sourceTree = "<group>"; };
+		D59DBFEA218FE8200013EC9A /* AATitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AATitle.h; sourceTree = "<group>"; };
+		D59DBFEB218FE8200013EC9A /* AALabels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AALabels.m; sourceTree = "<group>"; };
+		D59DBFEC218FE8200013EC9A /* AAStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAStyle.h; sourceTree = "<group>"; };
+		D59DBFED218FE8200013EC9A /* AABar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AABar.h; sourceTree = "<group>"; };
+		D59DBFEE218FE8200013EC9A /* AASeries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AASeries.m; sourceTree = "<group>"; };
+		D59DBFEF218FE8200013EC9A /* AAXAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAXAxis.m; sourceTree = "<group>"; };
+		D59DBFF0218FE8200013EC9A /* AAOptions3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAOptions3d.h; sourceTree = "<group>"; };
+		D59DBFF1218FE8200013EC9A /* AAPlotOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPlotOptions.m; sourceTree = "<group>"; };
+		D59DBFF2218FE8200013EC9A /* AADataLabels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AADataLabels.m; sourceTree = "<group>"; };
+		D59DBFF3218FE8200013EC9A /* AALine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AALine.m; sourceTree = "<group>"; };
+		D59DBFF4218FE8200013EC9A /* AAMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAMarker.h; sourceTree = "<group>"; };
+		D59DBFF5218FE8200013EC9A /* AALegend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALegend.h; sourceTree = "<group>"; };
+		D59DBFF6218FE8200013EC9A /* AATooltip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AATooltip.m; sourceTree = "<group>"; };
+		D59DBFF7218FE8200013EC9A /* AAAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAAnimation.h; sourceTree = "<group>"; };
+		D59DBFF8218FE8200013EC9A /* AASubtitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AASubtitle.m; sourceTree = "<group>"; };
+		D59DBFF9218FE8200013EC9A /* AAYAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAYAxis.m; sourceTree = "<group>"; };
+		D59DBFFA218FE8200013EC9A /* AACrosshair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AACrosshair.m; sourceTree = "<group>"; };
+		D59DBFFB218FE8200013EC9A /* AAPie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPie.h; sourceTree = "<group>"; };
+		D59DBFFC218FE8200013EC9A /* AAItemStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAItemStyle.h; sourceTree = "<group>"; };
+		D59DBFFD218FE8200013EC9A /* AASpline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AASpline.h; sourceTree = "<group>"; };
+		D59DBFFE218FE8200013EC9A /* AAChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAChart.h; sourceTree = "<group>"; };
+		D59DBFFF218FE8200013EC9A /* AAColumn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAColumn.m; sourceTree = "<group>"; };
+		D59DC000218FE8200013EC9A /* AAPlotLinesElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPlotLinesElement.m; sourceTree = "<group>"; };
+		D59DC001218FE8200013EC9A /* AAXAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAXAxis.h; sourceTree = "<group>"; };
+		D59DC002218FE8200013EC9A /* AAOptions3d.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAOptions3d.m; sourceTree = "<group>"; };
+		D59DC003218FE8200013EC9A /* AASeries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AASeries.h; sourceTree = "<group>"; };
+		D59DC004218FE8200013EC9A /* AAStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAStyle.m; sourceTree = "<group>"; };
+		D59DC005218FE8200013EC9A /* AABar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AABar.m; sourceTree = "<group>"; };
+		D59DC006218FE8200013EC9A /* AATitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AATitle.m; sourceTree = "<group>"; };
+		D59DC007218FE8200013EC9A /* AALabels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALabels.h; sourceTree = "<group>"; };
+		D59DC008218FE8200013EC9A /* AAAreaspline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAAreaspline.h; sourceTree = "<group>"; };
+		D59DC009218FE8200013EC9A /* AAArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAArea.m; sourceTree = "<group>"; };
+		D59DC00A218FE8200013EC9A /* AAAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAAnimation.m; sourceTree = "<group>"; };
+		D59DC00B218FE8200013EC9A /* AALegend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AALegend.m; sourceTree = "<group>"; };
+		D59DC00C218FE8200013EC9A /* AATooltip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AATooltip.h; sourceTree = "<group>"; };
+		D59DC00D218FE8200013EC9A /* AAMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAMarker.m; sourceTree = "<group>"; };
+		D59DC00E218FE8200013EC9A /* AALine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALine.h; sourceTree = "<group>"; };
+		D59DC00F218FE8200013EC9A /* AADataLabels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AADataLabels.h; sourceTree = "<group>"; };
+		D59DC010218FE8200013EC9A /* AAPlotOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPlotOptions.h; sourceTree = "<group>"; };
+		D59DC011218FE8200013EC9A /* AASpline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AASpline.m; sourceTree = "<group>"; };
+		D59DC012218FE8200013EC9A /* AAItemStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAItemStyle.m; sourceTree = "<group>"; };
+		D59DC013218FE8200013EC9A /* AAPie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPie.m; sourceTree = "<group>"; };
+		D59DC014218FE8200013EC9A /* AACrosshair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AACrosshair.h; sourceTree = "<group>"; };
+		D59DC015218FE8200013EC9A /* AAYAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAYAxis.h; sourceTree = "<group>"; };
+		D59DC016218FE8200013EC9A /* AASubtitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AASubtitle.h; sourceTree = "<group>"; };
+		D59DC017218FE8200013EC9A /* AAPlotLinesElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPlotLinesElement.h; sourceTree = "<group>"; };
+		D59DC018218FE8200013EC9A /* AAColumn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAColumn.h; sourceTree = "<group>"; };
+		D59DC019218FE8200013EC9A /* AAChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAChart.m; sourceTree = "<group>"; };
+		D59DC01B218FE8200013EC9A /* AAOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAOptions.h; sourceTree = "<group>"; };
+		D59DC01C218FE8200013EC9A /* AAChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAChartView.m; sourceTree = "<group>"; };
+		D59DC01D218FE8200013EC9A /* AAGlobalMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAGlobalMacro.h; sourceTree = "<group>"; };
+		D59DC01E218FE8200013EC9A /* AASeriesElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AASeriesElement.h; sourceTree = "<group>"; };
+		D59DC01F218FE8200013EC9A /* AAChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAChartModel.m; sourceTree = "<group>"; };
+		D59DC020218FE8200013EC9A /* AAChartKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAChartKit.h; sourceTree = "<group>"; };
+		D59DC021218FE8200013EC9A /* AAOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAOptions.m; sourceTree = "<group>"; };
+		D59DC022218FE8200013EC9A /* AASeriesElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AASeriesElement.m; sourceTree = "<group>"; };
+		D59DC023218FE8200013EC9A /* AAChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAChartView.h; sourceTree = "<group>"; };
+		D59DC024218FE8200013EC9A /* AAChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAChartModel.h; sourceTree = "<group>"; };
+		D59DC044218FEB9B0013EC9A /* HistoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		D59DC045218FEB9B0013EC9A /* HistoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		D59DC047218FECA70013EC9A /* MDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDViewController.h; sourceTree = "<group>"; };
+		D59DC048218FECA70013EC9A /* MDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDViewController.m; sourceTree = "<group>"; };
+		D59DC04A219028150013EC9A /* MDModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDModel.h; sourceTree = "<group>"; };
+		D59DC04B219028150013EC9A /* MDModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDModel.m; sourceTree = "<group>"; };
+		D59DC04D219028630013EC9A /* MDMeditationModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMeditationModel.h; sourceTree = "<group>"; };
+		D59DC04E219028630013EC9A /* MDMeditationModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDMeditationModel.m; sourceTree = "<group>"; };
+		D59DC05021902E530013EC9A /* MDDistractionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDDistractionModel.h; sourceTree = "<group>"; };
+		D59DC05121902E530013EC9A /* MDDistractionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDDistractionModel.m; sourceTree = "<group>"; };
+		D59DC05421902F300013EC9A /* MDViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDViewModel.h; sourceTree = "<group>"; };
+		D59DC05521902F300013EC9A /* MDViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDViewModel.m; sourceTree = "<group>"; };
+		D59DC05721902F510013EC9A /* MDMainViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMainViewModel.h; sourceTree = "<group>"; };
+		D59DC05821902F510013EC9A /* MDMainViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDMainViewModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,18 +294,19 @@
 		73161674218D9AD40034537D /* Meditation */ = {
 			isa = PBXGroup;
 			children = (
+				D59DC043218FE8260013EC9A /* ThirdParty */,
+				D59DBFE4218FE7A90013EC9A /* Others */,
 				7316168D218D9B1B0034537D /* HotLoad */,
 				73161675218D9AD40034537D /* AppDelegate.h */,
 				73161676218D9AD40034537D /* AppDelegate.m */,
-				73161678218D9AD40034537D /* ViewController.h */,
-				73161679218D9AD40034537D /* ViewController.m */,
-				7316167B218D9AD40034537D /* Main.storyboard */,
-				7316167E218D9AD70034537D /* Assets.xcassets */,
-				73161680218D9AD70034537D /* LaunchScreen.storyboard */,
-				73E34CC1218EABED00C2AB97 /* clock.wav */,
-				73161683218D9AD70034537D /* Info.plist */,
-				73161684218D9AD70034537D /* main.m */,
-				738EF605218E906000A9E811 /* PrefixHeader.pch */,
+				73161678218D9AD40034537D /* MainViewController.h */,
+				73161679218D9AD40034537D /* MainViewController.m */,
+				D59DC044218FEB9B0013EC9A /* HistoryViewController.h */,
+				D59DC045218FEB9B0013EC9A /* HistoryViewController.m */,
+				D59DC047218FECA70013EC9A /* MDViewController.h */,
+				D59DC048218FECA70013EC9A /* MDViewController.m */,
+				D59DC05321902EB40013EC9A /* Model */,
+				D59DC05A21902F5C0013EC9A /* ViewModel */,
 			);
 			path = Meditation;
 			sourceTree = "<group>";
@@ -428,6 +541,136 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D59DBFE4218FE7A90013EC9A /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				7316167B218D9AD40034537D /* Main.storyboard */,
+				7316167E218D9AD70034537D /* Assets.xcassets */,
+				73161680218D9AD70034537D /* LaunchScreen.storyboard */,
+				73E34CC1218EABED00C2AB97 /* clock.wav */,
+				73161683218D9AD70034537D /* Info.plist */,
+				73161684218D9AD70034537D /* main.m */,
+				738EF605218E906000A9E811 /* PrefixHeader.pch */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		D59DBFE5218FE8200013EC9A /* AAChartKitLib */ = {
+			isa = PBXGroup;
+			children = (
+				D59DBFE6218FE8200013EC9A /* AAJSFiles.bundle */,
+				D59DBFE7218FE8200013EC9A /* AAOptionsModel */,
+				D59DC01A218FE8200013EC9A /* AAChartConfiger */,
+			);
+			path = AAChartKitLib;
+			sourceTree = "<group>";
+		};
+		D59DBFE7218FE8200013EC9A /* AAOptionsModel */ = {
+			isa = PBXGroup;
+			children = (
+				D59DBFE8218FE8200013EC9A /* AAArea.h */,
+				D59DBFE9218FE8200013EC9A /* AAAreaspline.m */,
+				D59DBFEA218FE8200013EC9A /* AATitle.h */,
+				D59DBFEB218FE8200013EC9A /* AALabels.m */,
+				D59DBFEC218FE8200013EC9A /* AAStyle.h */,
+				D59DBFED218FE8200013EC9A /* AABar.h */,
+				D59DBFEE218FE8200013EC9A /* AASeries.m */,
+				D59DBFEF218FE8200013EC9A /* AAXAxis.m */,
+				D59DBFF0218FE8200013EC9A /* AAOptions3d.h */,
+				D59DBFF1218FE8200013EC9A /* AAPlotOptions.m */,
+				D59DBFF2218FE8200013EC9A /* AADataLabels.m */,
+				D59DBFF3218FE8200013EC9A /* AALine.m */,
+				D59DBFF4218FE8200013EC9A /* AAMarker.h */,
+				D59DBFF5218FE8200013EC9A /* AALegend.h */,
+				D59DBFF6218FE8200013EC9A /* AATooltip.m */,
+				D59DBFF7218FE8200013EC9A /* AAAnimation.h */,
+				D59DBFF8218FE8200013EC9A /* AASubtitle.m */,
+				D59DBFF9218FE8200013EC9A /* AAYAxis.m */,
+				D59DBFFA218FE8200013EC9A /* AACrosshair.m */,
+				D59DBFFB218FE8200013EC9A /* AAPie.h */,
+				D59DBFFC218FE8200013EC9A /* AAItemStyle.h */,
+				D59DBFFD218FE8200013EC9A /* AASpline.h */,
+				D59DBFFE218FE8200013EC9A /* AAChart.h */,
+				D59DBFFF218FE8200013EC9A /* AAColumn.m */,
+				D59DC000218FE8200013EC9A /* AAPlotLinesElement.m */,
+				D59DC001218FE8200013EC9A /* AAXAxis.h */,
+				D59DC002218FE8200013EC9A /* AAOptions3d.m */,
+				D59DC003218FE8200013EC9A /* AASeries.h */,
+				D59DC004218FE8200013EC9A /* AAStyle.m */,
+				D59DC005218FE8200013EC9A /* AABar.m */,
+				D59DC006218FE8200013EC9A /* AATitle.m */,
+				D59DC007218FE8200013EC9A /* AALabels.h */,
+				D59DC008218FE8200013EC9A /* AAAreaspline.h */,
+				D59DC009218FE8200013EC9A /* AAArea.m */,
+				D59DC00A218FE8200013EC9A /* AAAnimation.m */,
+				D59DC00B218FE8200013EC9A /* AALegend.m */,
+				D59DC00C218FE8200013EC9A /* AATooltip.h */,
+				D59DC00D218FE8200013EC9A /* AAMarker.m */,
+				D59DC00E218FE8200013EC9A /* AALine.h */,
+				D59DC00F218FE8200013EC9A /* AADataLabels.h */,
+				D59DC010218FE8200013EC9A /* AAPlotOptions.h */,
+				D59DC011218FE8200013EC9A /* AASpline.m */,
+				D59DC012218FE8200013EC9A /* AAItemStyle.m */,
+				D59DC013218FE8200013EC9A /* AAPie.m */,
+				D59DC014218FE8200013EC9A /* AACrosshair.h */,
+				D59DC015218FE8200013EC9A /* AAYAxis.h */,
+				D59DC016218FE8200013EC9A /* AASubtitle.h */,
+				D59DC017218FE8200013EC9A /* AAPlotLinesElement.h */,
+				D59DC018218FE8200013EC9A /* AAColumn.h */,
+				D59DC019218FE8200013EC9A /* AAChart.m */,
+			);
+			path = AAOptionsModel;
+			sourceTree = "<group>";
+		};
+		D59DC01A218FE8200013EC9A /* AAChartConfiger */ = {
+			isa = PBXGroup;
+			children = (
+				D59DC01B218FE8200013EC9A /* AAOptions.h */,
+				D59DC01C218FE8200013EC9A /* AAChartView.m */,
+				D59DC01D218FE8200013EC9A /* AAGlobalMacro.h */,
+				D59DC01E218FE8200013EC9A /* AASeriesElement.h */,
+				D59DC01F218FE8200013EC9A /* AAChartModel.m */,
+				D59DC020218FE8200013EC9A /* AAChartKit.h */,
+				D59DC021218FE8200013EC9A /* AAOptions.m */,
+				D59DC022218FE8200013EC9A /* AASeriesElement.m */,
+				D59DC023218FE8200013EC9A /* AAChartView.h */,
+				D59DC024218FE8200013EC9A /* AAChartModel.h */,
+			);
+			path = AAChartConfiger;
+			sourceTree = "<group>";
+		};
+		D59DC043218FE8260013EC9A /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				D59DBFE5218FE8200013EC9A /* AAChartKitLib */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		D59DC05321902EB40013EC9A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D59DC04A219028150013EC9A /* MDModel.h */,
+				D59DC04B219028150013EC9A /* MDModel.m */,
+				D59DC04D219028630013EC9A /* MDMeditationModel.h */,
+				D59DC04E219028630013EC9A /* MDMeditationModel.m */,
+				D59DC05021902E530013EC9A /* MDDistractionModel.h */,
+				D59DC05121902E530013EC9A /* MDDistractionModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D59DC05A21902F5C0013EC9A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D59DC05421902F300013EC9A /* MDViewModel.h */,
+				D59DC05521902F300013EC9A /* MDViewModel.m */,
+				D59DC05721902F510013EC9A /* MDMainViewModel.h */,
+				D59DC05821902F510013EC9A /* MDMainViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -490,6 +733,7 @@
 				731616F6218D9B1B0034537D /* constants.hr in Resources */,
 				731616EC218D9B1B0034537D /* macro.hr in Resources */,
 				73161682218D9AD70034537D /* LaunchScreen.storyboard in Resources */,
+				D59DC025218FE8200013EC9A /* AAJSFiles.bundle in Resources */,
 				73161707218D9B1B0034537D /* user_constant.hr in Resources */,
 				731616F7218D9B1B0034537D /* JSPatch.js in Resources */,
 				7316167F218D9AD70034537D /* Assets.xcassets in Resources */,
@@ -510,15 +754,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Meditation-checkManifestLockResult.txt",
 			);
@@ -534,34 +774,70 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7316167A218D9AD40034537D /* ViewController.m in Sources */,
+				D59DC02B218FE8200013EC9A /* AADataLabels.m in Sources */,
+				D59DC035218FE8200013EC9A /* AABar.m in Sources */,
+				7316167A218D9AD40034537D /* MainViewController.m in Sources */,
 				731616F2218D9B1B0034537D /* JPMasonry.m in Sources */,
 				731616F3218D9B1B0034537D /* JPDispatch.m in Sources */,
+				D59DC02A218FE8200013EC9A /* AAPlotOptions.m in Sources */,
+				D59DC039218FE8200013EC9A /* AALegend.m in Sources */,
 				731616EF218D9B1B0034537D /* JPBlockWrapper.m in Sources */,
 				731616E7218D9B1B0034537D /* JPEngine.m in Sources */,
 				731616E9218D9B1B0034537D /* JPStructPointer.m in Sources */,
+				D59DC040218FE8200013EC9A /* AAChartModel.m in Sources */,
 				731616EB218D9B1B0034537D /* JPCFunction.m in Sources */,
+				D59DC041218FE8200013EC9A /* AAOptions.m in Sources */,
+				D59DC02C218FE8200013EC9A /* AALine.m in Sources */,
+				D59DC05921902F510013EC9A /* MDMainViewModel.m in Sources */,
+				D59DC049218FECA70013EC9A /* MDViewController.m in Sources */,
+				D59DC03A218FE8200013EC9A /* AAMarker.m in Sources */,
+				D59DC028218FE8200013EC9A /* AASeries.m in Sources */,
+				D59DC033218FE8200013EC9A /* AAOptions3d.m in Sources */,
 				731616F9218D9B1B0034537D /* SGDirWatchdog.m in Sources */,
+				D59DC027218FE8200013EC9A /* AALabels.m in Sources */,
 				731616F0218D9B1B0034537D /* JPBlock.m in Sources */,
+				D59DC05221902E530013EC9A /* MDDistractionModel.m in Sources */,
+				D59DC05621902F300013EC9A /* MDViewModel.m in Sources */,
 				731616F1218D9B1B0034537D /* JPNSFunction.m in Sources */,
 				731616EE218D9B1B0034537D /* JPCleaner.m in Sources */,
+				D59DC038218FE8200013EC9A /* AAAnimation.m in Sources */,
+				D59DC03E218FE8200013EC9A /* AAChart.m in Sources */,
 				731616FD218D9B1B0034537D /* JPMethodSignature.m in Sources */,
+				D59DC03D218FE8200013EC9A /* AAPie.m in Sources */,
 				73161706218D9B1B0034537D /* HotComplileEngine.m in Sources */,
+				D59DC046218FEB9B0013EC9A /* HistoryViewController.m in Sources */,
 				73161685218D9AD70034537D /* main.m in Sources */,
 				731616FC218D9B1B0034537D /* GCDAsyncSocket.m in Sources */,
+				D59DC037218FE8200013EC9A /* AAArea.m in Sources */,
+				D59DC02F218FE8200013EC9A /* AAYAxis.m in Sources */,
+				D59DC026218FE8200013EC9A /* AAAreaspline.m in Sources */,
+				D59DC03C218FE8200013EC9A /* AAItemStyle.m in Sources */,
+				D59DC03F218FE8200013EC9A /* AAChartView.m in Sources */,
+				D59DC03B218FE8200013EC9A /* AASpline.m in Sources */,
 				731616ED218D9B1B0034537D /* JPStruct.m in Sources */,
+				D59DC029218FE8200013EC9A /* AAXAxis.m in Sources */,
 				731616F8218D9B1B0034537D /* FileSystemWatch.m in Sources */,
+				D59DC02E218FE8200013EC9A /* AASubtitle.m in Sources */,
+				D59DC04C219028150013EC9A /* MDModel.m in Sources */,
 				731616E8218D9B1B0034537D /* JPWeakStrong.m in Sources */,
 				73161702218D9B1B0034537D /* FileTransferServiceBrowser.m in Sources */,
 				73161701218D9B1B0034537D /* SourceCode.m in Sources */,
+				D59DC031218FE8200013EC9A /* AAColumn.m in Sources */,
 				73161677218D9AD40034537D /* AppDelegate.m in Sources */,
+				D59DC032218FE8200013EC9A /* AAPlotLinesElement.m in Sources */,
 				73161705218D9B1B0034537D /* HRMacroParser.m in Sources */,
 				73161704218D9B1B0034537D /* HRIndicatorView.m in Sources */,
 				731616FB218D9B1B0034537D /* GCDAsyncUdpSocket.m in Sources */,
 				73161703218D9B1B0034537D /* HRInfoViewController.m in Sources */,
+				D59DC034218FE8200013EC9A /* AAStyle.m in Sources */,
 				731616EA218D9B1B0034537D /* JPMemory.m in Sources */,
 				731616F5218D9B1B0034537D /* JPCGFunction.m in Sources */,
+				D59DC030218FE8200013EC9A /* AACrosshair.m in Sources */,
 				731616F4218D9B1B0034537D /* JPCollection.m in Sources */,
+				D59DC04F219028630013EC9A /* MDMeditationModel.m in Sources */,
+				D59DC036218FE8200013EC9A /* AATitle.m in Sources */,
+				D59DC02D218FE8200013EC9A /* AATooltip.m in Sources */,
+				D59DC042218FE8200013EC9A /* AASeriesElement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -704,7 +980,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 428CL6K7KT;
-				INFOPLIST_FILE = Meditation/Info.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Meditation/Others/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Meditation/Others/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -727,7 +1005,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 428CL6K7KT;
-				INFOPLIST_FILE = Meditation/Info.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Meditation/Others/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Meditation/Others/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
