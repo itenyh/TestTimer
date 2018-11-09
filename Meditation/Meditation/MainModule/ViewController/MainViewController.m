@@ -30,12 +30,6 @@ static int playRepeatTime = 4;
 
 @implementation MainViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    
-    [self bind];
-}
-
 - (void)setupUI {
     
     [self.view addSubview:self.distractionLabel];
@@ -63,23 +57,8 @@ static int playRepeatTime = 4;
 }
 
 #pragma )(
-- (void)bind {
+- (void)setupBinding {
     @weakify(self)
-    
-//    [
-//     (
-//      {
-//          __attribute__((objc_ownership(weak))) id target_ = (self.viewModel);
-//          [target_ rac_valuesForKeyPath:@((YES, "isMeditation")) observer:self];
-//      }
-//      ) subscribeNext:^(id _Nullable x) {
-//
-//     }];
-    
-//    BOOL a = ((void)self.viewModel.isMeditation, __objc_no);
-    
-    id a = @((YES, "isMeditation"));
-    NSLog(@"asdfas %@", a);
     
     //开始按钮
     [[self.actionButton rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(__kindof UIControl * _Nullable x) {

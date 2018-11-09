@@ -12,5 +12,8 @@
 
 - (void)setupUI;
 - (void)setupConstraints;
+- (void)setupBinding;
+
+- (void)controllerDidReady;
 
 @end

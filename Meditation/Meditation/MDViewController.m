@@ -22,6 +22,9 @@
     
     [self setupUI];
     [self setupConstraints];
+    [self setupBinding];
+    
+    [self controllerDidReady];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -31,5 +34,8 @@
 
 - (void)setupUI {}
 - (void)setupConstraints {}
+- (void)setupBinding {}
+
+- (void)controllerDidReady {}
 
 @end
