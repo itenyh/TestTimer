@@ -8,12 +8,18 @@
 
 #import "MDViewModel.h"
 
+#import "MDMeditationModel.h"
+
 @interface MDMainViewModel : MDViewModel
 
+@property (nonatomic, strong) MDMeditationModel *meditationModel;
+
 @property (nonatomic, assign) BOOL isMeditation;
-@property (nonatomic, assign) NSUInteger distractionCount;
-@property (nonatomic, assign) NSUInteger seconds;
+@property (nonatomic, assign) NSInteger distractionCount;
+@property (nonatomic, assign) NSInteger seconds;
 
 - (void)addDistraction;
+- (void)startMeditation;
+- (void)stopMeditationFinish:(BOOL)finish;
 
 @end

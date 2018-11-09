@@ -10,6 +10,5 @@
 
 @interface MDDistractionModel : MDModel
 
-@property (nonatomic, assign) long timestamp;
-
 @end
+RLM_ARRAY_TYPE(MDDistractionModel)

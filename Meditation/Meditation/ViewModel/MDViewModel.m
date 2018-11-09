@@ -10,4 +10,15 @@
 
 @implementation MDViewModel
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        [self setupViewModel];
+    }
+    return self;
+}
+
+- (void)setupViewModel {}
+
 @end

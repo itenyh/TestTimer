@@ -13,11 +13,10 @@
 
 @interface MDMeditationModel : MDModel
 
-@property (nonatomic, assign) long seconds;
-@property (nonatomic, copy) NSArray<MDDistractionModel *> *distractions;
+@property (nonatomic, assign) NSInteger seconds;
+@property RLMArray<MDDistractionModel *><MDDistractionModel> *distractions;
 @property (nonatomic, assign) BOOL finish;
-@property (nonatomic, assign) long startTime;
-@property (nonatomic, assign) long endTime;
-@property (nonatomic, assign) long timestamp;
+@property (nonatomic, strong) NSDate *startDate;
+@property (nonatomic, strong) NSDate *endDate;
 
 @end

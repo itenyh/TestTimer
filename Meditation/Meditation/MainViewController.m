@@ -36,7 +36,6 @@ static int playRepeatTime = 4;
     [self bind];
 }
 
-#pragma ()
 - (void)setupUI {
     
     [self.view addSubview:self.distractionLabel];
@@ -63,14 +62,37 @@ static int playRepeatTime = 4;
     }];
 }
 
+#pragma )(
 - (void)bind {
     @weakify(self)
-             
+    
+//    [
+//     (
+//      {
+//          __attribute__((objc_ownership(weak))) id target_ = (self.viewModel);
+//          [target_ rac_valuesForKeyPath:@((YES, "isMeditation")) observer:self];
+//      }
+//      ) subscribeNext:^(id _Nullable x) {
+//
+//     }];
+    
+//    BOOL a = ((void)self.viewModel.isMeditation, __objc_no);
+    
+    id a = @((YES, "isMeditation"));
+    NSLog(@"asdfas %@", a);
+    
+    //开始按钮
     [[self.actionButton rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(__kindof UIControl * _Nullable x) {
         @strongify(self)
-        self.viewModel.isMeditation = !self.viewModel.isMeditation;
+        if (self.viewModel.isMeditation) {
+            [self.viewModel stopMeditationFinish:NO];
+        }
+        else {
+            [self.viewModel startMeditation];
+        }
     }];
     
+    //是否在启动状态
     [RACObserve(self.viewModel, isMeditation) subscribeNext:^(id  _Nullable x) {
         @strongify(self)
         self.actionButton.selected = self.viewModel.isMeditation;
@@ -90,21 +112,24 @@ static int playRepeatTime = 4;
         }
     }];
     
+    //分散次数
     [RACObserve(self.viewModel, distractionCount) subscribeNext:^(id  _Nullable x) {
         @strongify(self)
         self.distractionLabel.text = [NSString stringWithFormat:@"%lu", (unsigned long)self.viewModel.distractionCount];
     }];
     
-    [RACObserve(self.slider, value) subscribeNext:^(id  _Nullable x) {
+    //时间
+    [RACObserve(self.viewModel, seconds) subscribeNext:^(id  _Nullable x) {
         @strongify(self)
-         [self.countDownTimer setCountDownTime:(int)self.slider.value * 60];
+        [self.countDownTimer setCountDownTime:self.viewModel.seconds];
     }];
     
+    //滑动杆值
     [[self.slider rac_signalForControlEvents:UIControlEventValueChanged] subscribeNext:^(__kindof UIControl * _Nullable x) {
-        @strongify(self)
-        [self.countDownTimer setCountDownTime:(int)self.slider.value * 60];
+         self.viewModel.seconds = (int)self.slider.value * 60;
     }];
     
+    //分散事件
     self.volumeButtonHandler = [JPSVolumeButtonHandler volumeButtonHandlerWithUpBlock:^{
         if (self.viewModel.isMeditation)
             [self.viewModel addDistraction];
@@ -119,7 +144,7 @@ static int playRepeatTime = 4;
 #pragma - mark MZTimerLabelDelegate
 
 - (void)timerLabel:(MZTimerLabel *)timerLabel finshedCountDownTimerWithTime:(NSTimeInterval)countTime {
-    self.viewModel.isMeditation = NO;
+    [self.viewModel stopMeditationFinish:YES];
     playAudio();
 }
 

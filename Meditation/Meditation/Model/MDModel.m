@@ -10,4 +10,17 @@
 
 @implementation MDModel
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        // Any Init Here......
+    }
+    return self;
+}
+
++ (NSDictionary *)defaultPropertyValues {
+    return @{@"createDate" : [NSDate new]};
+}
+
 @end

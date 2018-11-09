@@ -95,6 +95,7 @@
     aaOptions.yAxisSet(yAxis);
 }
 
+#pragma )(
 - (void)configueSeries:(AAOptions *)aaOptions {
     
     NSMutableArray *seriesElements = [NSMutableArray array];
@@ -105,9 +106,9 @@
         AAMarker *aaMarker = [AAMarker new];
         aaMarker.radiusSet(@2.5)//曲线连接点半径，默认是4
         .symbolSet(@"circle");//曲线点类型："circle", "square", "diamond", "triangle","triangle-down"，默认是"circle"
-        ele.markerSet(aaMarker);
-        ele.dataSet(subData);
-        [seriesElements addObject:ele];
+//        ele.markerSet(aaMarker);
+//        ele.dataSet(subData);
+//        [seriesElements addObject:ele];
     }];
     aaOptions.seriesSet(seriesElements);
     

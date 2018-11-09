@@ -10,4 +10,6 @@
 
 @interface MDViewModel : NSObject
 
+- (void)setupViewModel;
+
 @end
