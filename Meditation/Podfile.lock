@@ -1,4 +1,5 @@
 PODS:
+  - FSCalendar (2.8.0)
   - JPSVolumeButtonHandler (1.0.5)
   - Masonry (1.1.0)
   - MZTimerLabel (0.5.4)
@@ -8,6 +9,7 @@ PODS:
   - Realm/Headers (3.11.0)
 
 DEPENDENCIES:
+  - FSCalendar
   - JPSVolumeButtonHandler
   - Masonry
   - MZTimerLabel
@@ -16,6 +18,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - FSCalendar
     - JPSVolumeButtonHandler
     - Masonry
     - MZTimerLabel
@@ -23,12 +26,13 @@ SPEC REPOS:
     - Realm
 
 SPEC CHECKSUMS:
+  FSCalendar: 3a5ed3636e2ba1b83ebebfcf0c2603105a6f5efe
   JPSVolumeButtonHandler: 53110330c9168ed325def93eabff39f0fe3e8082
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MZTimerLabel: cd9bfb9304540ef2a9e163384fca9c978f0dbf83
   ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
   Realm: 92f09a102692b96a9a10e9617f214f15c5ab85fc
 
-PODFILE CHECKSUM: 87c0a1c2aaf21213b698505d7d4930a3f92a1e99
+PODFILE CHECKSUM: 5abd6ab6c2eb53be92cfa496605f2df944f034c0
 
 COCOAPODS: 1.5.3

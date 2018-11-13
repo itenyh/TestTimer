@@ -7,6 +7,8 @@
 //
 
 #import "MainViewController.h"
+#import "MDCalendarViewController.h"
+
 #import "MDMainViewModel.h"
 
 #import <JPSVolumeButtonHandler/JPSVolumeButtonHandler.h>
@@ -24,6 +26,8 @@ static int playRepeatTime = 4;
 @property (nonatomic, strong) UISlider *slider;
 @property (nonatomic, strong) UIButton *actionButton;
 
+@property (nonatomic, strong) UIButton *calendar;
+
 @property (nonatomic, strong) MDMainViewModel *viewModel;
 
 @end
@@ -32,12 +36,14 @@ static int playRepeatTime = 4;
 
 - (void)setupUI {
     
-    [self.view addSubview:self.distractionLabel];
-    [self.view addSubview:self.stackView];
+    [self.contentView addSubview:self.distractionLabel];
+    [self.contentView addSubview:self.stackView];
     [self.stackView addArrangedSubview:self.timerLabel];
     [self.stackView addArrangedSubview:self.slider];
     [self.stackView addArrangedSubview:self.actionButton];
     
+    [self.navigationBar addRightNavItem:self.calendar];
+    self.title = @"主页";
 }
 
 - (void)setupConstraints {
@@ -46,13 +52,13 @@ static int playRepeatTime = 4;
     }];
     
     [self.distractionLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.centerX.equalTo(self.view);
-        make.centerY.equalTo(self.view).offset(-80);
+        make.centerX.equalTo(self.contentView);
+        make.centerY.equalTo(self.contentView).offset(-80);
     }];
     
     [self.stackView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.bottom.equalTo(self.view).offset(-100);
-        make.centerX.equalTo(self.view);
+        make.bottom.equalTo(self.contentView).offset(-100);
+        make.centerX.equalTo(self.contentView);
     }];
 }
 
@@ -146,6 +152,12 @@ void soundCompleteCallback(SystemSoundID soundID, void *clientData) {
     playAudio();
 }
 
+#pragma - mark Action
+
+- (void)calendarAction {
+    [self.navigationController pushViewController:[MDCalendarViewController new] animated:YES];
+}
+
 #pragma - mark lazy load
 
 - (UILabel *)distractionLabel {
@@ -212,6 +224,15 @@ void soundCompleteCallback(SystemSoundID soundID, void *clientData) {
         _viewModel = [MDMainViewModel new];
     }
     return _viewModel;
+}
+
+- (UIButton *)calendar {
+    if (!_calendar) {
+        _calendar = [UIButton new];
+        [_calendar setImage:[UIImage imageNamed:@"calendar"] forState:UIControlStateNormal];
+        [_calendar addTarget:self action:@selector(calendarAction) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _calendar;
 }
 
 @end

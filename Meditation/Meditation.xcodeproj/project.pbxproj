@@ -87,10 +87,15 @@
 		D59DC05221902E530013EC9A /* MDDistractionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DC05121902E530013EC9A /* MDDistractionModel.m */; };
 		D59DC05621902F300013EC9A /* MDViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DC05521902F300013EC9A /* MDViewModel.m */; };
 		D59DC05921902F510013EC9A /* MDMainViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D59DC05821902F510013EC9A /* MDMainViewModel.m */; };
+		FCB5A77E219A5FB400AC5CE0 /* MDCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB5A77D219A5FB400AC5CE0 /* MDCalendarViewController.m */; };
+		FCB5A781219A684D00AC5CE0 /* MDCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB5A780219A684D00AC5CE0 /* MDCalendarCell.m */; };
+		FCB5A785219A743E00AC5CE0 /* MDCalendarViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB5A784219A743E00AC5CE0 /* MDCalendarViewModel.m */; };
+		FCB5A788219AA41400AC5CE0 /* MDNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB5A787219AA41400AC5CE0 /* MDNavigationBar.m */; };
+		FCB5A78B219AA4FA00AC5CE0 /* MDView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB5A78A219AA4FA00AC5CE0 /* MDView.m */; };
+		FCB5A790219AB76000AC5CE0 /* MDTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB5A78F219AB76000AC5CE0 /* MDTabBarView.m */; };
 		FCB668A421952B2900AC8FC8 /* MDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB668A321952B2900AC8FC8 /* MDTabBarController.m */; };
 		FCB668A721952D5A00AC8FC8 /* MDContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB668A621952D5A00AC8FC8 /* MDContentViewController.m */; };
 		FCB668AA219530DC00AC8FC8 /* MDDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB668A9219530DC00AC8FC8 /* MDDetailViewController.m */; };
-		FCB668AC2195570900AC8FC8 /* MD_Stage_1.html in Resources */ = {isa = PBXBuildFile; fileRef = FCB668AB2195570900AC8FC8 /* MD_Stage_1.html */; };
 		FCB668AF2195831400AC8FC8 /* StageOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB668AE2195831400AC8FC8 /* StageOneViewController.m */; };
 		FCB668B4219585E300AC8FC8 /* StageZeroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB668B3219585E300AC8FC8 /* StageZeroViewController.m */; };
 /* End PBXBuildFile section */
@@ -256,13 +261,25 @@
 		D59DC05521902F300013EC9A /* MDViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDViewModel.m; sourceTree = "<group>"; };
 		D59DC05721902F510013EC9A /* MDMainViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMainViewModel.h; sourceTree = "<group>"; };
 		D59DC05821902F510013EC9A /* MDMainViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDMainViewModel.m; sourceTree = "<group>"; };
+		FCB5A77C219A5FB400AC5CE0 /* MDCalendarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDCalendarViewController.h; sourceTree = "<group>"; };
+		FCB5A77D219A5FB400AC5CE0 /* MDCalendarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDCalendarViewController.m; sourceTree = "<group>"; };
+		FCB5A77F219A684D00AC5CE0 /* MDCalendarCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDCalendarCell.h; sourceTree = "<group>"; };
+		FCB5A780219A684D00AC5CE0 /* MDCalendarCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDCalendarCell.m; sourceTree = "<group>"; };
+		FCB5A783219A743E00AC5CE0 /* MDCalendarViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDCalendarViewModel.h; sourceTree = "<group>"; };
+		FCB5A784219A743E00AC5CE0 /* MDCalendarViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDCalendarViewModel.m; sourceTree = "<group>"; };
+		FCB5A786219AA41400AC5CE0 /* MDNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDNavigationBar.h; sourceTree = "<group>"; };
+		FCB5A787219AA41400AC5CE0 /* MDNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDNavigationBar.m; sourceTree = "<group>"; };
+		FCB5A789219AA4FA00AC5CE0 /* MDView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDView.h; sourceTree = "<group>"; };
+		FCB5A78A219AA4FA00AC5CE0 /* MDView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDView.m; sourceTree = "<group>"; };
+		FCB5A78C219AA6A500AC5CE0 /* MDCommonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDCommonMacro.h; sourceTree = "<group>"; };
+		FCB5A78E219AB76000AC5CE0 /* MDTabBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDTabBarView.h; sourceTree = "<group>"; };
+		FCB5A78F219AB76000AC5CE0 /* MDTabBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDTabBarView.m; sourceTree = "<group>"; };
 		FCB668A221952B2900AC8FC8 /* MDTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDTabBarController.h; sourceTree = "<group>"; };
 		FCB668A321952B2900AC8FC8 /* MDTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDTabBarController.m; sourceTree = "<group>"; };
 		FCB668A521952D5A00AC8FC8 /* MDContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDContentViewController.h; sourceTree = "<group>"; };
 		FCB668A621952D5A00AC8FC8 /* MDContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDContentViewController.m; sourceTree = "<group>"; };
 		FCB668A8219530DC00AC8FC8 /* MDDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDDetailViewController.h; sourceTree = "<group>"; };
 		FCB668A9219530DC00AC8FC8 /* MDDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDDetailViewController.m; sourceTree = "<group>"; };
-		FCB668AB2195570900AC8FC8 /* MD_Stage_1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = MD_Stage_1.html; sourceTree = "<group>"; };
 		FCB668AD2195831400AC8FC8 /* StageOneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StageOneViewController.h; sourceTree = "<group>"; };
 		FCB668AE2195831400AC8FC8 /* StageOneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StageOneViewController.m; sourceTree = "<group>"; };
 		FCB668B2219585E300AC8FC8 /* StageZeroViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StageZeroViewController.h; sourceTree = "<group>"; };
@@ -311,23 +328,24 @@
 		73161674218D9AD40034537D /* Meditation */ = {
 			isa = PBXGroup;
 			children = (
-				FCB668AB2195570900AC8FC8 /* MD_Stage_1.html */,
 				D59DC043218FE8260013EC9A /* ThirdParty */,
 				D59DBFE4218FE7A90013EC9A /* Others */,
 				7316168D218D9B1B0034537D /* HotLoad */,
 				73161675218D9AD40034537D /* AppDelegate.h */,
 				73161676218D9AD40034537D /* AppDelegate.m */,
+				FCB5A782219A741100AC5CE0 /* StatisticModule */,
 				FCB668B02195853800AC8FC8 /* MainModule */,
+				FCB5A78D219AACFE00AC5CE0 /* Base */,
 				D59DC044218FEB9B0013EC9A /* HistoryViewController.h */,
 				D59DC045218FEB9B0013EC9A /* HistoryViewController.m */,
-				D59DC047218FECA70013EC9A /* MDViewController.h */,
-				D59DC048218FECA70013EC9A /* MDViewController.m */,
 				FCB668A221952B2900AC8FC8 /* MDTabBarController.h */,
 				FCB668A321952B2900AC8FC8 /* MDTabBarController.m */,
 				FCB668A521952D5A00AC8FC8 /* MDContentViewController.h */,
 				FCB668A621952D5A00AC8FC8 /* MDContentViewController.m */,
 				FCB668A8219530DC00AC8FC8 /* MDDetailViewController.h */,
 				FCB668A9219530DC00AC8FC8 /* MDDetailViewController.m */,
+				FCB5A78E219AB76000AC5CE0 /* MDTabBarView.h */,
+				FCB5A78F219AB76000AC5CE0 /* MDTabBarView.m */,
 			);
 			path = Meditation;
 			sourceTree = "<group>";
@@ -572,6 +590,7 @@
 				73161683218D9AD70034537D /* Info.plist */,
 				73161684218D9AD70034537D /* main.m */,
 				738EF605218E906000A9E811 /* PrefixHeader.pch */,
+				FCB5A78C219AA6A500AC5CE0 /* MDCommonMacro.h */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -686,10 +705,34 @@
 			children = (
 				D59DC05721902F510013EC9A /* MDMainViewModel.h */,
 				D59DC05821902F510013EC9A /* MDMainViewModel.m */,
-				D59DC05421902F300013EC9A /* MDViewModel.h */,
-				D59DC05521902F300013EC9A /* MDViewModel.m */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FCB5A782219A741100AC5CE0 /* StatisticModule */ = {
+			isa = PBXGroup;
+			children = (
+				FCB5A77F219A684D00AC5CE0 /* MDCalendarCell.h */,
+				FCB5A780219A684D00AC5CE0 /* MDCalendarCell.m */,
+				FCB5A77C219A5FB400AC5CE0 /* MDCalendarViewController.h */,
+				FCB5A77D219A5FB400AC5CE0 /* MDCalendarViewController.m */,
+				FCB5A783219A743E00AC5CE0 /* MDCalendarViewModel.h */,
+				FCB5A784219A743E00AC5CE0 /* MDCalendarViewModel.m */,
+			);
+			path = StatisticModule;
+			sourceTree = "<group>";
+		};
+		FCB5A78D219AACFE00AC5CE0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D59DC047218FECA70013EC9A /* MDViewController.h */,
+				D59DC048218FECA70013EC9A /* MDViewController.m */,
+				D59DC05421902F300013EC9A /* MDViewModel.h */,
+				D59DC05521902F300013EC9A /* MDViewModel.m */,
+				FCB5A789219AA4FA00AC5CE0 /* MDView.h */,
+				FCB5A78A219AA4FA00AC5CE0 /* MDView.m */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		FCB668B02195853800AC8FC8 /* MainModule */ = {
@@ -698,6 +741,8 @@
 				D59DC05321902EB40013EC9A /* Model */,
 				D59DC05A21902F5C0013EC9A /* ViewModel */,
 				FCB668B12195855900AC8FC8 /* ViewController */,
+				FCB5A786219AA41400AC5CE0 /* MDNavigationBar.h */,
+				FCB5A787219AA41400AC5CE0 /* MDNavigationBar.m */,
 			);
 			path = MainModule;
 			sourceTree = "<group>";
@@ -776,7 +821,6 @@
 				731616E6218D9B1B0034537D /* macro_parser_hr.js in Resources */,
 				731616F6218D9B1B0034537D /* constants.hr in Resources */,
 				731616EC218D9B1B0034537D /* macro.hr in Resources */,
-				FCB668AC2195570900AC8FC8 /* MD_Stage_1.html in Resources */,
 				73161682218D9AD70034537D /* LaunchScreen.storyboard in Resources */,
 				D59DC025218FE8200013EC9A /* AAJSFiles.bundle in Resources */,
 				73161707218D9B1B0034537D /* user_constant.hr in Resources */,
@@ -820,6 +864,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D59DC02B218FE8200013EC9A /* AADataLabels.m in Sources */,
+				FCB5A781219A684D00AC5CE0 /* MDCalendarCell.m in Sources */,
 				D59DC035218FE8200013EC9A /* AABar.m in Sources */,
 				7316167A218D9AD40034537D /* MainViewController.m in Sources */,
 				731616F2218D9B1B0034537D /* JPMasonry.m in Sources */,
@@ -839,13 +884,17 @@
 				D59DC03A218FE8200013EC9A /* AAMarker.m in Sources */,
 				D59DC028218FE8200013EC9A /* AASeries.m in Sources */,
 				D59DC033218FE8200013EC9A /* AAOptions3d.m in Sources */,
+				FCB5A788219AA41400AC5CE0 /* MDNavigationBar.m in Sources */,
 				731616F9218D9B1B0034537D /* SGDirWatchdog.m in Sources */,
+				FCB5A78B219AA4FA00AC5CE0 /* MDView.m in Sources */,
 				D59DC027218FE8200013EC9A /* AALabels.m in Sources */,
 				731616F0218D9B1B0034537D /* JPBlock.m in Sources */,
 				D59DC05221902E530013EC9A /* MDDistractionModel.m in Sources */,
 				FCB668A721952D5A00AC8FC8 /* MDContentViewController.m in Sources */,
+				FCB5A77E219A5FB400AC5CE0 /* MDCalendarViewController.m in Sources */,
 				D59DC05621902F300013EC9A /* MDViewModel.m in Sources */,
 				731616F1218D9B1B0034537D /* JPNSFunction.m in Sources */,
+				FCB5A790219AB76000AC5CE0 /* MDTabBarView.m in Sources */,
 				731616EE218D9B1B0034537D /* JPCleaner.m in Sources */,
 				D59DC038218FE8200013EC9A /* AAAnimation.m in Sources */,
 				D59DC03E218FE8200013EC9A /* AAChart.m in Sources */,
@@ -880,6 +929,7 @@
 				73161703218D9B1B0034537D /* HRInfoViewController.m in Sources */,
 				D59DC034218FE8200013EC9A /* AAStyle.m in Sources */,
 				731616EA218D9B1B0034537D /* JPMemory.m in Sources */,
+				FCB5A785219A743E00AC5CE0 /* MDCalendarViewModel.m in Sources */,
 				731616F5218D9B1B0034537D /* JPCGFunction.m in Sources */,
 				D59DC030218FE8200013EC9A /* AACrosshair.m in Sources */,
 				731616F4218D9B1B0034537D /* JPCollection.m in Sources */,

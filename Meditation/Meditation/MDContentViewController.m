@@ -19,12 +19,12 @@
 @implementation MDContentViewController
 
 - (void)setupUI {
-    [self.view addSubview:self.tableView];
+    [self.contentView addSubview:self.tableView];
 }
 
 - (void)setupConstraints {
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.equalTo(self.view);
+        make.edges.equalTo(self.contentView);
     }];
 }
 

@@ -10,13 +10,6 @@
 
 #import "MDTabBarController.h"
 
-#import "StageZeroViewController.h"
-#import "StageOneViewController.h"
-#import "MainViewController.h"
-#import "MDContentViewController.h"
-#import "HistoryViewController.h"
-#import "MDDetailViewController.h"
-
 @interface AppDelegate ()
 
 @end
@@ -29,19 +22,9 @@
     
     NSString *documentPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask,YES)lastObject];
     NSLog(@"documentPath: %@", documentPath);
-    
-    MDTabBarController *tabBarController = [MDTabBarController new];
-    
-    UIViewController *mainVC = [StageZeroViewController new];
-    mainVC.tabBarItem.title = @"主页";
-    
-    MDContentViewController *contentVC = [MDContentViewController new];
-    contentVC.tabBarItem.title  = @"内容";
-    
-    tabBarController.viewControllers = @[mainVC, contentVC];
 
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:tabBarController];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:[MDTabBarController new]];
     navController.navigationBar.hidden = YES;
     self.window.rootViewController = navController;
     [self.window makeKeyAndVisible];

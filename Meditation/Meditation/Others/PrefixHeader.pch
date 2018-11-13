@@ -9,6 +9,7 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
+#import "MDCommonMacro.h"
 
 #import <Masonry/Masonry.h>
 #import "AAGlobalMacro.h"

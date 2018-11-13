@@ -7,6 +7,8 @@
 //
 
 #import "StageOneViewController.h"
+#import "MDCalendarViewController.h"
+
 #import <MZTimerLabel/MZTimerLabel.h>
 
 #import "MDMainViewModel.h"
@@ -18,6 +20,8 @@
 @property (nonatomic, strong) MZTimerLabel *countDownTimer;
 @property (nonatomic, strong) UIButton *actionButton;
 
+@property (nonatomic, strong) UIButton *calendar;
+
 @property (nonatomic, strong) MDMainViewModel *viewModel;
 
 @end
@@ -27,19 +31,17 @@
 
 - (void)setupUI {
     
-    [self.view addSubview:self.stackView];
+    [self.contentView addSubview:self.stackView];
     [self.stackView addArrangedSubview:self.timerLabel];
     [self.stackView addArrangedSubview:self.actionButton];
     
+    [self.navigationBar addRightNavItem:self.calendar];
+    self.title = @"主页";
 }
 
 - (void)setupConstraints {
-    [self.timerLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.width.equalTo(@150);
-    }];
-    
     [self.stackView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.center.equalTo(self.view);
+        make.center.equalTo(self.contentView);
     }];
 }
 
@@ -85,6 +87,11 @@
     
 }
 
+#pragma - mark Action
+
+- (void)calendarAction {
+    [self.navigationController pushViewController:[MDCalendarViewController new] animated:YES];
+}
 
 #pragma - mark lazy load
 
@@ -116,6 +123,15 @@
         [_actionButton setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     }
     return _actionButton;
+}
+
+- (UIButton *)calendar {
+    if (!_calendar) {
+        _calendar = [UIButton new];
+        [_calendar setImage:[UIImage imageNamed:@"calendar"] forState:UIControlStateNormal];
+        [_calendar addTarget:self action:@selector(calendarAction) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _calendar;
 }
 
 - (MZTimerLabel *)countDownTimer {

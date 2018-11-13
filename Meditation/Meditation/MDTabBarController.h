@@ -10,4 +10,6 @@
 
 @interface MDTabBarController : UITabBarController
 
+- (void)setImages:(NSArray *)images;
+
 @end
