@@ -43,7 +43,7 @@ typedef void (^TranslateCallBack)(NSString *jsScript, NSString *className, JSVal
     engine.jsSavePath = @"/Users/mkeqi/Code/TestTimer/Meditation/Meditation/HotLoad/";
     [engine hotReloadProject];
     
-    [engine performSelector:@selector(setupUI) withObject:nil afterDelay:1];
+//    [engine performSelector:@selector(setupUI) withObject:nil afterDelay:1];
 }
 
 - (void)setupUI {
